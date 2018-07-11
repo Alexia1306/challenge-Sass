@@ -32,6 +32,12 @@ nav i {
 /*------------------- Main -------------------*/
 article {
   border: 1px black dotted;
+  padding: 2rem;
+}
+
+.two ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .asi1art1 {
@@ -45,10 +51,17 @@ article {
   height: 10rem;
   width: 100%;
   left: 0;
+  top: 0;
 }
 
 #blueBird {
-  margin-top: 7rem;
+  margin-top: 5rem;
   border-radius: 3rem;
 }
+
+h3 a {
+    font-size: 1rem;
+}
+
+
 /*------------------- Main -------------------*/
