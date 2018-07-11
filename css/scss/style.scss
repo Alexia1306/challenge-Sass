@@ -1,6 +1,7 @@
 /*------------------- Mother -------------------*/
 /*------------------- Mother -------------------*/
 /*------------------- Header -------------------*/
+
 header {
   width: 100%;
 }
@@ -28,17 +29,34 @@ nav i {
   width: 6%;
   margin-left: 5rem;
 }
+
 /*------------------- Header -------------------*/
 /*------------------- Main -------------------*/
+
 article {
   border: 1px black dotted;
   padding: 2rem;
+  box-shadow: 1px 1px 1px;
+  border-radius: 2px;
+}
+
+.art-marg {
+  margin-top: 10%;
+}
+
+.art-marg-bis {
+  margin-top: 2%;
 }
 
 .two ul {
     list-style-type: none;
     padding: 0;
 }
+
+ .left {
+   margin-bottom: 5%;
+ }
+
 
 .asi1art1 {
   text-align: center;
@@ -59,9 +77,12 @@ article {
   border-radius: 3rem;
 }
 
+.three img {
+  width: 50%;
+}
+
 h3 a {
     font-size: 1rem;
 }
-
 
 /*------------------- Main -------------------*/
