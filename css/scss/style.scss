@@ -74,15 +74,26 @@ article {
 
 #blueBird {
   margin-top: 5rem;
-  border-radius: 3rem;
+  border-radius: 50%;
 }
 
 .three img {
-  width: 50%;
+  width: 100%;
+
 }
 
 h3 a {
     font-size: 1rem;
 }
 
+.tickets {
+    border:solid 2px blue;
+    border-radius: 3px;
+    padding:0.5rem;
+}
+
+#bird2 {
+    border-radius: 50%;
+    width: 4rem;
+}
 /*------------------- Main -------------------*/
