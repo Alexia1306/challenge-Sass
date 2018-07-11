@@ -3,120 +3,189 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>SASS</title>
+  <title>SASS</title>
 
 </head>
 
 <body>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
 
-        <div class="row blue">
+    <div class="row blue">
 
-            <header>
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="#">ICON</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#"><img src="img/brand-white.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Messages</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Docs</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <form class="form-inline">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </nav>
-            </header>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Messages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+            </ul>
+          </div>
+          <form class="form-inline">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            <i class="far fa-bell"></i>
+            <img src="https://picsum.photos/200/300/?random" alt="">
+          </form>
+        </nav>
+      </header>
 
-        </div>
-
-        <main>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <aside class="">
-                        <div class="row grey">
-                            <div class="col-12 red">
-                                <article class="one">
-                                    <h2>Dave Gamache</h2>
-                                    <p>I wish i was a little bit taller, wish i was a baller, wish i had a girl... also.</p>
-                                    <h4>Friends</h4>
-                                    <h5>12M</h5>
-                                    <h4>Enemies</h4>
-                                    <h5>1</h5>
-                                </article>
-
-                            </div>
-                            <div class="col-12 red">
-                                <article class="two">
-                                    <h2>About &middot; <a>Edit</a></h2>
-                                    <ul>
-                                        <li> <i></i>Went to <a href="#">Oh, Canada</a></li>
-
-                                        <li> <i></i>became friends with <a href="#">Obama</a></li>
-
-                                        <li> <i></i>Worked at <a href="#">Github </a></li>
-
-                                        <li> <i></i>Lives in <a href="#">San Francisco, CA</a></li>
-
-                                        <li> <i></i>From <a href="#">Seattle, WA</a></li>
-                                    </ul>
-                                </article>
-                            </div>
-                            <div class="col-12 red">
-                                <article class="three">
-
-                                </article>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-
-                <div class="col-12 col-md-4 red">
-
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="row grey">
-                        <div class="col-12 red">
-
-                        </div>
-                        <div class="col-12 red">
-
-                        </div>
-                        <div class="col-12 red">
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </main>
     </div>
 
-    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
-    <script src="js/script.js" charset="utf-8"></script>
+    <main>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <aside class="">
+            <div class="row grey">
+              <div class="col-12 red">
+                <article class="one">
+                  <h2>Dave Gamache</h2>
+                  <p>I wish i was a little bit taller, wish i was a baller, wish i had a girl... also.</p>
+                  <h4>Friends</h4>
+                  <h5>12M</h5>
+                  <h4>Enemies</h4>
+                  <h5>1</h5>
+                </article>
+
+              </div>
+              <div class="col-12 red">
+                <article class="two">
+                  <h2>About &middot; <a>Edit</a></h2>
+                  <ul>
+                    <li> <i></i>Went to <a href="#">Oh, Canada</a></li>
+
+                    <li> <i></i>became friends with <a href="#">Obama</a></li>
+
+                    <li> <i></i>Worked at <a href="#">Github </a></li>
+
+                    <li> <i></i>Lives in <a href="#">San Francisco, CA</a></li>
+
+                    <li> <i></i>From <a href="#">Seattle, WA</a></li>
+                  </ul>
+                </article>
+              </div>
+              <div class="col-12 red">
+                <article class="three">
+                  <h2>Photos &middot; <a>Edit</a></h2>
+                  <img src="https://picsum.photos/200/300/?random" alt="">
+                  <img src="https://picsum.photos/200/300/?random" alt="">
+                  <img src="https://picsum.photos/200/300/?random" alt="">
+                  <img src="https://picsum.photos/200/300/?random" alt="">
+                  <img src="https://picsum.photos/200/300/?random" alt="">
+                  <img src="https://picsum.photos/200/300/?random" alt="">
+                </article>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="col-12 col-md-4 red">
+          <section>
+            <input type="message" name="" value=""><i class="fas fa-camera-retro"></i>
+            <article class="one">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <h2>Dave Gamache:</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <h2>Jacon thornton:</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <h2>Mark Otto</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </article>
+            <article class="one">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <h2>Mark Otto</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </article>
+            <article class="one">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <h2>Mark Otto</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <img src="https://picsum.photos/200/300/?random" alt="">
+              <h2>Dave Gamache</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </article>
+          </section>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <aside class="">
+            <div class="row grey">
+              <div class="col-12 red">
+                <article class="">
+                  <h2>Sponsored</h2>
+                  <img src="https://picsum.photos/200/300/?random" alt="">
+                  <h3>It might be to visit Iceland</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <a href="#">Buy a ticket</a>
+                </article>
+              </div>
+
+              <div class="col-12 red">
+                <article class="">
+                  <h2>Likes &middot; <a>View All</a></h2>
+                  <article class="">
+                    <img src="https://picsum.photos/200/300/?random" alt="">
+                    <h2>Jacob Thornton<span>@fat</span></h2>
+                    <a href="#"><i></i> Follow</a>
+                  </article>
+                  <article class="">
+                    <img src="https://picsum.photos/200/300/?random" alt="">
+                    <h2>Mark Otto<span>@fat</span></h2>
+                    <a href="#"><i></i> Follow</a>
+                  </article>
+                  <article class="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </article>
+                </article>
+              </div>
+
+              <div class="col-12 red">
+                <article class="">
+                  <p>&copy; <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a> <a href="#">About</a>                    <a href="#">About</a> <a href="#">About</a></p>
+                </article>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
 </body>
 
 </html>
